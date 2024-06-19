@@ -37,6 +37,7 @@ class PDF:
         except Exception as e:
             print("An error seems to have occured: " + str(e))
 
+
 if __name__ == '__main__':
     pdf = PDF('VTUDOC_VLWKDS_1RF20EC001_PUG.pdf')
     # metadata = {'/Producer': 'PFU PDF Library 1.2.1', '/Creator': 'PaperStream Capture 1.5', '/CreationDate': "D:20240604124646+05'30'", '/ModDate': "D:20240604124646+05'30'", '/MetadataDate': "D:20240604124646+05'30'"}
